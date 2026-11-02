@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>@font-face { font-family: Fredoka; font-weight: 300 700; src: url(../fonts/fredoka.woff2) format("woff2"); }</style>
+    <mask id="eye">
+      <rect width="610" height="600" fill="#fff"/>
+      <path d="M482 144 Q497 158 512 144" fill="none" stroke="#000" stroke-width="9" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect width="1000" height="1000" fill="#111111"/>
+  <g transform="translate(195 90)" fill="#F7891F">
+    <path fill="none" stroke="#F7891F" stroke-width="56" stroke-linecap="round"
+      d="M288 150 C220 146 160 172 160 226 C160 280 230 300 262 350 C284 384 290 420 288 450 C284 510 240 532 180 532 C100 532 48 490 48 430 C48 370 96 336 140 344 C180 352 190 400 160 418 C140 430 124 420 126 404"/>
+    <path fill-rule="evenodd" mask="url(#eye)"
+      d="M356 560 Q340 560 340 544 L340 118 L372 50 Q382 32 392 50 L412 96 L448 62 Q462 50 466 68 L474 106 Q510 120 530 160 Q542 178 532 192 Q520 214 500 220 C540 236 552 268 550 300 C548 330 530 350 506 356 C560 368 590 410 590 460 C590 520 546 560 490 560 Z
+         M396 272 L440 272 C470 272 488 290 488 308 C488 326 470 344 440 344 L396 344 Z
+         M396 398 L464 398 C504 398 530 422 530 454 C530 486 504 506 464 506 L396 506 Z"/>
+  </g>
+  <g fill="#F7891F" font-family="Fredoka, Nunito, 'Arial Rounded MT Bold', sans-serif" font-weight="600" text-anchor="middle">
+    <text x="500" y="790" font-size="100" letter-spacing="6">SLOW BLINK</text>
+    <text x="511" y="868" font-size="44" letter-spacing="22">GAMES</text>
+  </g>
+</svg>
